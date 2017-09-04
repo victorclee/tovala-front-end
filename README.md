@@ -1,24 +1,17 @@
-# README
+# Tovala front end web developer challenge
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The challenge is to build a single­page javascript application that lets users drag colored rectangles around an area. The application should be as simple as possible but also needs to work robustly and intuitively. It is fine to include documentation on use. It is better if the application itself gives the user enough feedback to figure out all the possible activities.
+</br>
+Here is the requested feature set:
+* Add a new rectangle to the area
+* Remove a rectangle
+* Resize a rectangle using direct mouse manipulations
+* Move a rectangle using direct mouse manipulations
+* Change the color of a rectangle
+* Clear the area
+* Save the current area layout (the position, size, and color of each rectangle in the area)
+* Name a saved layout
+* Return to a saved layout
+* Delete a saved layout from the set of saved layouts
+The layouts should be stored per­ user & should persist though a page refresh.
+Please use any toolkit(s) that you like in implementing this application, then put the application up on a server so that we can play with it “live”, and provide a link to download all of the code that you have written. Please document which browsers you have used to test your code.
