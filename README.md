@@ -16,3 +16,18 @@ Here is the requested feature set:
 The layouts should be stored per­ user & should persist though a page refresh.
 </br>
 Please use any toolkit(s) that you like in implementing this application, then put the application up on a server so that we can play with it “live”, and provide a link to download all of the code that you have written. Please document which browsers you have used to test your code.
+
+# Victor's documentation 
+</br>
+Things needed to build this app:
+</br>
+* SVG
+* SVG path
+* SVG container
+* SVG <rect>
+* <g>
+* HTML DOM
+* Removing an SVG element from the DOM using jQuery
+* HTML Local Storage
+
+
