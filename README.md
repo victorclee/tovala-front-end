@@ -25,8 +25,8 @@ I think I need to research:
 * SVG
 * SVG path
 * SVG container
-* SVG <rect>
-* <g>
+* SVG rect
+* svg g
 * HTML DOM
 * Removing an SVG element from the DOM using jQuery
 * HTML Local Storage
