@@ -1,5 +1,4 @@
 # Tovala front end web developer challenge
-
 The challenge is to build a single­page javascript application that lets users drag colored rectangles around an area. The application should be as simple as possible but also needs to work robustly and intuitively. It is fine to include documentation on use. It is better if the application itself gives the user enough feedback to figure out all the possible activities.
 </br>
 Here is the requested feature set:
@@ -29,7 +28,7 @@ I think I need to research:
 * Removing an SVG element from the DOM using jQuery
 * HTML Local Storage
 
-Raphaël JavaScript Library is a lifesaver 
+Raphaël JavaScript Library turned out to be a lifesaver 
 https://dmitrybaranovskiy.github.io/raphael/
 
 
