@@ -20,7 +20,6 @@ Please use any toolkit(s) that you like in implementing this application, then p
 # Victor's documentation 
 </br>
 Initial thoughts on how to approach this app:
-</br>
 I think I need to research:
 * SVG
 * SVG path
@@ -30,7 +29,7 @@ I think I need to research:
 * HTML DOM
 * Removing an SVG element from the DOM using jQuery
 * HTML Local Storage
-
+</br>
 Raphaël JavaScript Library is a lifesaver 
 https://dmitrybaranovskiy.github.io/raphael/
 
