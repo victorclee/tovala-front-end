@@ -30,5 +30,11 @@ I think I need to research:
 
 Raphaël JavaScript Library turned out to be a lifesaver 
 https://dmitrybaranovskiy.github.io/raphael/
+https://dmitrybaranovskiy.github.io/raphael/reference.html
+
+Creating a new rectangle:
+Trying to expand on the concept of creating a new item on a to-do list
+https://www.w3schools.com/howto/howto_js_todolist.asp
+
 
 

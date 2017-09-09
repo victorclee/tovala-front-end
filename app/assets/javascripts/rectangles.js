@@ -4,15 +4,15 @@
 window.onload = function() {
 var R = Raphael("canvas", 1400, 700),
     c = R.rect(100, 100, 100, 100).attr({
-            fill: "hsb(.8, 1, 1)",
+            fill: "#f293e8",
             stroke: "none",
             opacity: .5,
             cursor: "move"
         }),
     s = R.rect(180, 180, 20, 20).attr({
-            fill: "hsb(.8, .5, .5)",
+            fill: "#f293e8",
             stroke: "none",
-            opacity: .5
+            opacity: 0
         }),
     // start, move, and up are the drag functions
     start = function () {
@@ -53,4 +53,18 @@ var R = Raphael("canvas", 1400, 700),
     c.sizer = s;
     s.drag(rmove, rstart);
     s.box = c;
+
+    function newRectangle() {
+        c = R.rect(100, 100, 100, 100).attr({
+                fill: "#f293e8",
+                stroke: "none",
+                opacity: .5,
+                cursor: "move"
+            }),
+        s = R.rect(180, 180, 20, 20).attr({
+                fill: "#f293e8",
+                stroke: "none",
+                opacity: 0
+            })
+    };
 };
