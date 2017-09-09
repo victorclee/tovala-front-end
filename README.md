@@ -17,8 +17,7 @@ The layouts should be stored per­ user & should persist though a page refresh.
 Please use any toolkit(s) that you like in implementing this application, then put the application up on a server so that we can play with it “live”, and provide a link to download all of the code that you have written. Please document which browsers you have used to test your code.
 
 # Victor's documentation 
-Initial thoughts on how to approach this app:
-I think I need to research:
+Initial research:
 * SVG
 * SVG path
 * SVG container
@@ -28,13 +27,15 @@ I think I need to research:
 * Removing an SVG element from the DOM using jQuery
 * HTML Local Storage
 
-Raphaël JavaScript Library turned out to be a lifesaver 
+Raphaël JavaScript Library turned out to be a lifesaver</br>
 https://dmitrybaranovskiy.github.io/raphael/
 https://dmitrybaranovskiy.github.io/raphael/reference.html
 
-Creating a new rectangle:
+Adding a new rectangle:
 Trying to expand on the concept of creating a new item on a to-do list
 https://www.w3schools.com/howto/howto_js_todolist.asp
 
-
+Web browser used:
+Chrome
+Version 60.0.3112.113 (Official Build) (64-bit)
 

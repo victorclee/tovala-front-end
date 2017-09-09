@@ -1,9 +1,13 @@
 // Place all the behaviors and hooks related to the matching controller here.
 // All this logic will automatically be available in application.js.
+var R
 
 window.onload = function() {
-var R = Raphael("canvas", 1400, 700),
-    c = R.rect(100, 100, 100, 100).attr({
+    R = Raphael("canvas", 1400, 700)
+};
+
+function newRectangle() {
+var c = R.rect(100, 100, 100, 100).attr({
             fill: "#f293e8",
             stroke: "none",
             opacity: .5,
@@ -53,18 +57,4 @@ var R = Raphael("canvas", 1400, 700),
     c.sizer = s;
     s.drag(rmove, rstart);
     s.box = c;
-
-    function newRectangle() {
-        c = R.rect(100, 100, 100, 100).attr({
-                fill: "#f293e8",
-                stroke: "none",
-                opacity: .5,
-                cursor: "move"
-            }),
-        s = R.rect(180, 180, 20, 20).attr({
-                fill: "#f293e8",
-                stroke: "none",
-                opacity: 0
-            })
-    };
 };
