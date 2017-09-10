@@ -31,6 +31,9 @@ Raphaël JavaScript Library turned out to be a lifesaver</br>
 https://dmitrybaranovskiy.github.io/raphael</br>
 https://dmitrybaranovskiy.github.io/raphael/reference.html
 
+jscolor for changing colors</br>
+http://jscolor.com/
+
 Web browser used:
 Chrome
 Version 60.0.3112.113 (Official Build) (64-bit)

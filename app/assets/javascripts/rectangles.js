@@ -7,16 +7,14 @@ window.onload = function() {
     R = Raphael("canvas", 1400, 700)
     };
 
-    function newRectangle() {
+function newRectangle() {
     var c = R.rect(100, 100, 100, 100)
             .attr({
                     fill: "#f293e8",
                     stroke: "none",
                     opacity: .5,
                     cursor: "move"
-                    })
-            .data("id", id)
-            ,
+                    }),
         s = R.rect(180, 180, 20, 20).attr({
                 fill: "#f293e8",
                 stroke: "none",
@@ -65,11 +63,15 @@ window.onload = function() {
 
     id++;
 
+    var set = R.set(c,s).data("id", id);
+    id++;
+
     };
 
-    function clearCanvas() {
-        R.clear();       
-};
+
+function removeAll() {
+    R.clear();       
+    };
 
 
 
