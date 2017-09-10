@@ -31,8 +31,9 @@ Raphaël JavaScript Library turned out to be a lifesaver</br>
 https://dmitrybaranovskiy.github.io/raphael</br>
 https://dmitrybaranovskiy.github.io/raphael/reference.html
 
-jscolor for changing colors</br>
+I wanted to use jscolor for users to pick their own colors, but have yet to fully implement</br>
 http://jscolor.com/
+
 
 Web browser used:
 Chrome

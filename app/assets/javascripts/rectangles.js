@@ -1,7 +1,7 @@
 // Place all the behaviors and hooks related to the matching controller here.
 // All this logic will automatically be available in application.js.
 var R
-var id = 0;
+var id = 1;
 
 window.onload = function() {
     R = Raphael("canvas", 1400, 630)
@@ -17,10 +17,14 @@ function newRectangle() {
                     })
             .data("id", id)
             .dblclick(function () {
-                        alert(this.data("id"))
-
-                                    })
-            ,
+                var randomizedColor = "#";
+                var hexChars = "0123456789ABCDEF";
+                for (var index = 0; index < 6; index++) {
+                  randomizedColor += hexChars[Math.floor(Math.random() * 16)];
+                }
+                this.attr('fill', randomizedColor);
+                console.log(randomizedColor);
+                    }),
         s = R.rect(190, 190, 10, 10).attr({
                 fill: "#FFFFFF",
                 stroke: "none",
