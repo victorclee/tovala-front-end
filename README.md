@@ -31,10 +31,6 @@ Raphaël JavaScript Library turned out to be a lifesaver</br>
 https://dmitrybaranovskiy.github.io/raphael</br>
 https://dmitrybaranovskiy.github.io/raphael/reference.html
 
-Adding a new rectangle:
-Trying to expand on the concept of creating a new item on a to-do list
-https://www.w3schools.com/howto/howto_js_todolist.asp
-
 Web browser used:
 Chrome
 Version 60.0.3112.113 (Official Build) (64-bit)

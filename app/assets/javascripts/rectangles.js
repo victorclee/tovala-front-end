@@ -5,23 +5,23 @@ var id = 0;
 
 window.onload = function() {
     R = Raphael("canvas", 1400, 700)
-};
+    };
 
-function newRectangle() {
-var c = R.rect(100, 100, 100, 100)
-        .attr({
+    function newRectangle() {
+    var c = R.rect(100, 100, 100, 100)
+            .attr({
+                    fill: "#f293e8",
+                    stroke: "none",
+                    opacity: .5,
+                    cursor: "move"
+                    })
+            .data("id", id)
+            ,
+        s = R.rect(180, 180, 20, 20).attr({
                 fill: "#f293e8",
                 stroke: "none",
-                opacity: .5,
-                cursor: "move"
-                })
-        .data("id", id)
-        ,
-    s = R.rect(180, 180, 20, 20).attr({
-            fill: "#f293e8",
-            stroke: "none",
-            opacity: 1
-        }),
+                opacity: 1
+            }),
 
     // start, move, and up are the drag functions
     start = function () {
@@ -64,4 +64,30 @@ var c = R.rect(100, 100, 100, 100)
     s.box = c;
 
     id++;
+
+    };
+
+    function clearCanvas() {
+        R.clear();       
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
