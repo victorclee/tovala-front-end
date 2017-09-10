@@ -1,14 +1,18 @@
 // Place all the behaviors and hooks related to the matching controller here.
 // All this logic will automatically be available in application.js.
-var R
-var id = 1;
 
+// Global variables
+var id = 1;
+var C;
+
+// Creating a canvas for the rectangles
 window.onload = function() {
-    R = Raphael("canvas", 1400, 630)
+    C = Raphael("canvas", 1400, 630)
     };
 
+// What happens when you click on New Rectangle. 
 function newRectangle() {
-    var c = R.rect(100, 100, 100, 100)
+        r = C.rect(100, 100, 100, 100)
             .attr({
                     fill: "#f293e8",
                     stroke: "none",
@@ -24,12 +28,21 @@ function newRectangle() {
                 }
                 this.attr('fill', randomizedColor);
                 console.log(randomizedColor);
-                    }),
-        s = R.rect(190, 190, 10, 10).attr({
-                fill: "#FFFFFF",
-                stroke: "none",
-                opacity: .1
-            }),
+                }),
+        s = C.rect(190, 190, 10, 10)
+            .attr({
+                    fill: "#FFFFFF",
+                    stroke: "none",
+                    opacity: .1
+                    })
+            
+            /* Below was an attempt to delete the rectangle by double-clicking the lower right hand corner. It was glitchy, so commented out.
+            .dblclick(function() {
+                r.remove();
+                this.remove();
+            })
+            */
+            ,
 
     // start, move, and up are the drag functions
     start = function () {
@@ -66,10 +79,10 @@ function newRectangle() {
         this.box.attr({width: this.box.ow + dx, height: this.box.oh + dy});
     };   
     // rstart and rmove are the resize functions;
-    c.drag(move, start, up);
-    c.sizer = s;
+    r.drag(move, start, up);
+    r.sizer = s;
     s.drag(rmove, rstart);
-    s.box = c;
+    s.box = r;
 
     id++;
 
@@ -77,7 +90,7 @@ function newRectangle() {
 
 
 function removeAll() {
-    R.clear();       
+    C.clear();       
     };
 
 

@@ -31,9 +31,9 @@ Raphaël JavaScript Library turned out to be a lifesaver</br>
 https://dmitrybaranovskiy.github.io/raphael</br>
 https://dmitrybaranovskiy.github.io/raphael/reference.html
 
-I wanted to use jscolor for users to pick their own colors, but have yet to fully implement</br>
+I wanted to use jscolor for users to pick their own colors, but have yet to fully implement.</br>
 http://jscolor.com/
-
+At the current state of the app, user can randomize color of a rectangle by double clicking it. Each randomized color change is logged in the console.
 
 Web browser used:
 Chrome
