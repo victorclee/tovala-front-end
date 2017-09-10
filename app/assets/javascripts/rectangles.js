@@ -1,23 +1,28 @@
 // Place all the behaviors and hooks related to the matching controller here.
 // All this logic will automatically be available in application.js.
 var R
+var id = 0;
 
 window.onload = function() {
     R = Raphael("canvas", 1400, 700)
 };
 
 function newRectangle() {
-var c = R.rect(100, 100, 100, 100).attr({
-            fill: "#f293e8",
-            stroke: "none",
-            opacity: .5,
-            cursor: "move"
-        }),
+var c = R.rect(100, 100, 100, 100)
+        .attr({
+                fill: "#f293e8",
+                stroke: "none",
+                opacity: .5,
+                cursor: "move"
+                })
+        .data("id", id)
+        ,
     s = R.rect(180, 180, 20, 20).attr({
             fill: "#f293e8",
             stroke: "none",
-            opacity: 0
+            opacity: 1
         }),
+
     // start, move, and up are the drag functions
     start = function () {
         // storing original coordinates
@@ -57,4 +62,6 @@ var c = R.rect(100, 100, 100, 100).attr({
     c.sizer = s;
     s.drag(rmove, rstart);
     s.box = c;
+
+    id++;
 };

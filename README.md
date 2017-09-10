@@ -28,7 +28,7 @@ Initial research:
 * HTML Local Storage
 
 Raphaël JavaScript Library turned out to be a lifesaver</br>
-https://dmitrybaranovskiy.github.io/raphael/
+https://dmitrybaranovskiy.github.io/raphael</br>
 https://dmitrybaranovskiy.github.io/raphael/reference.html
 
 Adding a new rectangle:
