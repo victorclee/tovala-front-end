@@ -4,7 +4,7 @@ var R
 var id = 0;
 
 window.onload = function() {
-    R = Raphael("canvas", 1400, 700)
+    R = Raphael("canvas", 1400, 630)
     };
 
 function newRectangle() {
@@ -14,11 +14,17 @@ function newRectangle() {
                     stroke: "none",
                     opacity: .5,
                     cursor: "move"
-                    }),
-        s = R.rect(180, 180, 20, 20).attr({
-                fill: "#f293e8",
+                    })
+            .data("id", id)
+            .dblclick(function () {
+                        alert(this.data("id"))
+
+                                    })
+            ,
+        s = R.rect(190, 190, 10, 10).attr({
+                fill: "#FFFFFF",
                 stroke: "none",
-                opacity: 1
+                opacity: .1
             }),
 
     // start, move, and up are the drag functions
@@ -61,9 +67,6 @@ function newRectangle() {
     s.drag(rmove, rstart);
     s.box = c;
 
-    id++;
-
-    var set = R.set(c,s).data("id", id);
     id++;
 
     };
