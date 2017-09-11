@@ -36,7 +36,7 @@ The drag and drop and resize features are done by using this library.</br>
 I used Raphaël because it's lightweight and it currently supports Firefox 3.0+, Safari 3.0+, Chrome 5.0+, Opera 9.5+ and Internet Explorer 6.0+
 
 I wanted to use jscolor for users to pick their own colors, but have yet to fully implement.</br>
-http://jscolor.com/
+http://jscolor.com/</br>
 At the current state of the app, user can randomize color of a rectangle by double clicking it. Each randomized color change is logged in the console.
 
 
