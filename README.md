@@ -29,7 +29,8 @@ Initial research:
 
 Raphaël JavaScript Library turned out to be a lifesaver</br>
 https://dmitrybaranovskiy.github.io/raphael</br>
-https://dmitrybaranovskiy.github.io/raphael/reference.html
+https://dmitrybaranovskiy.github.io/raphael/reference.html</br>
+The drag and drop and resize features are done by using this library.
 
 I wanted to use jscolor for users to pick their own colors, but have yet to fully implement.</br>
 http://jscolor.com/
@@ -38,4 +39,10 @@ At the current state of the app, user can randomize color of a rectangle by doub
 Web browser used:
 Chrome
 Version 60.0.3112.113 (Official Build) (64-bit)
+
+Deployed on Heroku
+
+Features that still need work:
+* Deleting individual rectangles
+* File saving features
 
