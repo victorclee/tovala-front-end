@@ -26,8 +26,7 @@ Initial research:
 * SVG rect
 * svg g
 * HTML DOM
-* Removing an SVG element from the DOM using jQuery
-* HTML Local Storage
+* Saving with jQuery
 
 Raphaël JavaScript Library turned out to be a lifesaver</br>
 https://dmitrybaranovskiy.github.io/raphael</br>
