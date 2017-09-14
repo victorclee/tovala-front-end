@@ -26,7 +26,8 @@ Initial research:
 * SVG rect
 * svg g
 * HTML DOM
-* Saving with jQuery
+* ~~Saving with jQuery~~
+* HTML5 localStorage
 
 Raphaël JavaScript Library turned out to be a lifesaver</br>
 https://dmitrybaranovskiy.github.io/raphael</br>
