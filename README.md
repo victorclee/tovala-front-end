@@ -39,6 +39,10 @@ I wanted to use jscolor for users to pick their own colors, but have yet to full
 http://jscolor.com/</br>
 At the current state of the app, user can randomize color of a rectangle by double clicking it. Each randomized color change is logged in the console.
 
+Integrating Raphael.js With Backbone.js</br>
+https://marmelab.com/blog/2013/05/22/integrating-raphael.js-with-backbone.html</br>
+http://backbonejs.org/</br>
+
 
 Web browser used:
 Chrome
