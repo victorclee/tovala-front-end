@@ -31,6 +31,9 @@ Research Topics:
 * Client-side MVC. This blew my mind. It just completely shifted what I learned in bootcamp! I am so used to server-side MVC (Rails)
 * SVG Sprites? What is it and what does it do?
 * How do I save and load SVG with localStorage???
+* I have not used Angular.js before, but the more I Google, the more I associate Angular with working with SVG. What advantages (for this project) do I have in using Angular? Do I have enough time to learn Angular??
+* What does D3.js do?
+
 
 Raphaël JavaScript Library turned out to be a lifesaver</br>
 https://dmitrybaranovskiy.github.io/raphael</br>
