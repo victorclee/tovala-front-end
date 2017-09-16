@@ -19,15 +19,18 @@ Please use any toolkit(s) that you like in implementing this application, then p
 # Victor's documentation 
 This is a Rails app because I'm deploying it on Heroku.
 
-Initial research:
+Research Topics:
 * SVG
 * SVG path
 * SVG container
 * SVG rect
 * svg g
 * HTML DOM
-* ~~Saving with jQuery~~
+* Saving with jQuery?
 * HTML5 localStorage
+* Client-side MVC. This blew my mind. It just completely shifted what I learned in bootcamp! I am so used to server-side MVC (Rails)
+* SVG Sprites? What is it and what does it do?
+* How do I save and load SVG with localStorage???
 
 Raphaël JavaScript Library turned out to be a lifesaver</br>
 https://dmitrybaranovskiy.github.io/raphael</br>
@@ -39,7 +42,7 @@ I wanted to use jscolor for users to pick their own colors, but have yet to full
 http://jscolor.com/</br>
 At the current state of the app, user can randomize color of a rectangle by double clicking it. Each randomized color change is logged in the console.
 
-Integrating Raphael.js With Backbone.js</br>
+Integrating Raphael.js with Backbone.js</br>
 https://marmelab.com/blog/2013/05/22/integrating-raphael.js-with-backbone.html</br>
 http://backbonejs.org/</br>
 

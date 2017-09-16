@@ -3,16 +3,16 @@
 
 // Global variables
 var id = 1;
-var C;
+var Canvas;
 
 // Creating a canvas for the rectangles
 window.onload = function() {
-    C = Raphael("canvas", 1400, 630)
+    Canvas = Raphael("canvas", 1400, 630)
     };
 
 // What happens when you click on New Rectangle. 
 function newRectangle() {
-        r = C.rect(100, 100, 100, 100)
+        r = Canvas.rect(100, 100, 100, 100)
             .attr({
                     fill: "#f293e8",
                     stroke: "none",
@@ -29,7 +29,7 @@ function newRectangle() {
                 this.attr('fill', randomizedColor);
                 console.log(randomizedColor);
                 }),
-        s = C.rect(190, 190, 10, 10)
+        s = Canvas.rect(190, 190, 10, 10)
             .attr({
                     fill: "#FFFFFF",
                     stroke: "none",
@@ -84,13 +84,14 @@ function newRectangle() {
     s.drag(rmove, rstart);
     s.box = r;
 
+
     id++;
 
     };
 
 
 function removeAll() {
-    C.clear();       
+    Canvas.clear();       
     };
 
 
