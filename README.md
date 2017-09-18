@@ -26,14 +26,25 @@ Research Topics:
 * SVG rect
 * svg g
 * HTML DOM
+..* https://stackoverflow.com/questions/1122437/what-is-dom-element</br>
 * Saving with jQuery?
 * HTML5 localStorage
 * Client-side MVC. This blew my mind. It just completely shifted what I learned in bootcamp! I am so used to server-side MVC (Rails)
 * SVG Sprites? What is it and what does it do?
+..* https://github.com/jkphl/svg-sprite</br>
+..* https://osvaldas.info/caching-svg-sprite-in-localstorage</br>
+..* https://www.webdesignerdepot.com/2017/05/how-to-create-and-manage-svg-sprites/</br>
+..* https://24ways.org/2014/an-overview-of-svg-sprite-creation-techniques/</br>
 * How do I save and load SVG with localStorage???
-* I have not used Angular.js before, but the more I Google, the more I associate Angular with working with SVG. What advantages (for this project) do I have in using Angular? Do I have enough time to learn Angular??
+* I have not used Angular.js before, but the more I Google, the more I associate Angular with working with SVG. What advantages (for this project) do I have in using Angular? Do I have enough time to learn Angular for this challenge??
+..* https://www.packtpub.com/mapt/book/web_development/9781784398057</br>
+..* https://stackoverflow.com/questions/45549065/load-svg-content-in-angular-2-using-d3-js</br>
 * What does D3.js do?
-
+..* https://github.com/d3/d3</br>
+* SVG-localstorage
+..* https://www.npmjs.com/package/svg-localstorage</br>
+* Backbone.js
+..* http://backbonejs.org/docs/backbone.localStorage.html</br>
 
 Raphaël JavaScript Library turned out to be a lifesaver</br>
 https://dmitrybaranovskiy.github.io/raphael</br>
